@@ -1,6 +1,5 @@
 package com.emmeliejohansson.cards.service.impl;
 
-
 import com.emmeliejohansson.cards.constants.CardsConstants;
 import com.emmeliejohansson.cards.dto.CardsDto;
 import com.emmeliejohansson.cards.entity.Cards;
@@ -88,6 +87,4 @@ public class CardsServiceImpl implements ICardsService {
         cardsRepository.deleteById(cards.getCardId());
         return true;
     }
-
-
 }

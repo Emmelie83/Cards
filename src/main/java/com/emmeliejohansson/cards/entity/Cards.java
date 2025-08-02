@@ -3,6 +3,9 @@ package com.emmeliejohansson.cards.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import jakarta.persistence.*;
+import lombok.*;
+
 @Entity
 @Getter
 @Setter
